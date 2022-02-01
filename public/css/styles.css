@@ -1,0 +1,132 @@
+/*-----------------------reset----------------------------*/
+html {
+  background-color: #d1e8e4;
+  background-image: -webkit-linear-gradient(60deg, #a2d2ff 50%, #d1e8e4 50%);
+  min-height: 1000px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.4);
+}
+
+#heading {
+  background-color: #a2d2ff;
+  text-align: center;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 20px auto 0 auto;
+  font-size: 1.8rem;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+  overflow: hidden;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  text-decoration: line-through;
+  text-decoration-color: #212121;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #454a4b;
+}
+
+form.input-todo {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: #a2d2ff;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 395px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #a2d2ff;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+  text-align: left;
+}
+
+/*----------------------Work Route Button----------------*/
+.home-list {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.home-list a:hover {
+  color: #a2d2ff;
+}
+
+.home-list a {
+  text-decoration: none;
+  color: #454a4b;
+}
+
+/*--------------------------------footer section--------------------------*/
+.footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.footer-heading {
+  font-weight: bold;
+}
+
+.footer form {
+  display: inline;
+}
